@@ -1,12 +1,12 @@
 import {Route, Routes} from 'react-router-dom';
-import MainPage from "@pages/main";
+import TaskApp from "@pages/main";
 
 function App(): JSX.Element {
   return (
     <Routes>
       <Route
         path='/'
-        element={<MainPage/>}
+        element={<TaskApp/>}
       />
     </Routes>
   );
